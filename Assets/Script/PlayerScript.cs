@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.ComponentModel;
 using TMPro;
 using UnityEditor;
@@ -42,11 +43,27 @@ public class PlayerScript : MonoBehaviour
         rb = this.GetComponent<Rigidbody2D>();
     }
     // Update is called once per frame
+    private float nextActionTime = 0.0f;
+    public float period = 0.1f;
     void Update()
     {
+        if(this.gameObject.layer == 10)
+        {
+            if (Time.time > nextActionTime)
+            {
+                nextActionTime += period; 
+                this.gameObject.GetComponent<SpriteRenderer>().enabled = !this.gameObject.GetComponent<SpriteRenderer>().enabled;
+                Stab.gameObject.GetComponent<SpriteRenderer>().enabled = this.gameObject.GetComponent<SpriteRenderer>().enabled;
+            }
+        }
+        else
+        {
+            Stab.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+            this.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+        }
+
         Flip();
         jump = Physics2D.OverlapArea(top_left.position, bottom_right.position, ground_layers);
-
         hz = CrossPlatformInputManager.GetAxis("Horizontal");
 
         if (rb.velocity.x > maxSpeed || rb.velocity.x < -maxSpeed)
@@ -72,13 +89,35 @@ public class PlayerScript : MonoBehaviour
         weaponParticle.gameObject.SetActive(state);
     }
 
+    IEnumerator Invin()
+    {
+        invisTag();
+        yield return new WaitForSeconds(5f);
+        invisOff();
+    }
+
+    void invisTag()
+    {
+        this.gameObject.tag = "Untagged";
+        this.gameObject.layer = 10;
+    }
+
+    void invisOff()
+    {
+        this.gameObject.tag = "Player";
+        this.gameObject.layer = 0;
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            ScoreAndTimer t = timerObj.gameObject.GetComponent<ScoreAndTimer>();
-            t.RemoveTime(EnemyTimeDamage);
+            if (this.gameObject.tag == "Player")
+            {
+                ScoreAndTimer t = timerObj.gameObject.GetComponent<ScoreAndTimer>();
+                t.RemoveTime(EnemyTimeDamage);
+                StartCoroutine(Invin());
+            }
         }
 
         if (collision.gameObject.CompareTag("Death"))
