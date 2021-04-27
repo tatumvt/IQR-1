@@ -30,26 +30,30 @@ public class enemyMove : MonoBehaviour
             SAT.AddScore(10);
             Destroy(this.gameObject);
         }
-
+        
+        //Move enemy
         if (flip)
         {
             if (this.GetComponent<Rigidbody2D>().velocity.x > maxSpeed)
             {
+                //Normalize
                 this.GetComponent<Rigidbody2D>().velocity = this.GetComponent<Rigidbody2D>().velocity.normalized * maxSpeed;
             }
             else
             {
+                //Increase
                 this.GetComponent<Rigidbody2D>().AddForce(new Vector2(1 * speed * Time.deltaTime, 0));
             }
         }
+        //move the other way
         else
         {
             if (this.GetComponent<Rigidbody2D>().velocity.x < -maxSpeed)
-            {
+            {//Normalize
                 this.GetComponent<Rigidbody2D>().velocity = this.GetComponent<Rigidbody2D>().velocity.normalized * maxSpeed;
             }
             else
-            {
+            {//Increase
                 this.GetComponent<Rigidbody2D>().AddForce(new Vector2(-1 * speed * Time.deltaTime, 0));
             }
         }
@@ -58,6 +62,7 @@ public class enemyMove : MonoBehaviour
     
     public void TakeDamage(float damage)
     {
+        //Move away from player when hit
         if (this.transform.position.x > player.transform.position.x)
         {
             this.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
@@ -69,8 +74,11 @@ public class enemyMove : MonoBehaviour
             this.GetComponent<Rigidbody2D>().AddForce(new Vector2(-160, 15));
         }
 
+        //Set new health
         health = health - damage;
     }
+
+    //Flip the enemy to move the other way if it hits the wall
     private void OnCollisionEnter2D(Collision2D trig)
     {
         if (trig.gameObject.CompareTag("EastWall"))
@@ -83,6 +91,7 @@ public class enemyMove : MonoBehaviour
             flip = true;
         }
 
+        //kills the enemy if it falls in the void
         if (trig.gameObject.tag == "Death")
         {
             Destroy(this.gameObject);

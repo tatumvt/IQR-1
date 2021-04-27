@@ -12,8 +12,8 @@ public class ScoreAndTimer : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI scoreTextPOP;
     public GameObject gameobjScore;
-    public GameObject EndOfGameCanvas;
-    public string ScoreName;
+    public GameObject endOfGameCanvas;
+    public string scoreName;
     public int score;
 
     private void Start()
@@ -26,23 +26,25 @@ public class ScoreAndTimer : MonoBehaviour
 
     void OutputTime()
     {
-        if (timerIsRunning){
+        if (timerIsRunning)
+        {
             score++;
         }
     }
 
-    
     void Update()
     {
+        //TEMP
         if (Input.GetKeyDown(KeyCode.R))
         {
             PlayerPrefs.DeleteAll();
         }
+
         scoreText.text = score.ToString();
 
         if (timerIsRunning)
         {
-            
+
             if (timeRemaining > 0)
             {
                 timeRemaining -= Time.deltaTime;
@@ -50,15 +52,15 @@ public class ScoreAndTimer : MonoBehaviour
             }
             else
             {
-                int temp = PlayerPrefs.GetInt(ScoreName);
-                EndOfGameCanvas.SetActive(true);
+                int temp = PlayerPrefs.GetInt(scoreName);
+                endOfGameCanvas.SetActive(true);
                 if (temp <= score)
                 {
                     gameobjScore.SetActive(true);
-                    PlayerPrefs.SetInt(ScoreName, score);
+                    PlayerPrefs.SetInt(scoreName, score);
                 }
                 scoreTextPOP.text = score.ToString();
-                
+
                 Time.timeScale = 0;
                 timerIsRunning = false;
                 DisplayTime(-1);

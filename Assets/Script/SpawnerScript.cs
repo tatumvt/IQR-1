@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class SpawnerScript : MonoBehaviour
 {
-    [SerializeField] protected float spawnEvery = 5f;
+    //Time to spawn enemies
+    [SerializeField] private float spawnEvery = 5f;
+    //Object to spawn
     public GameObject spawnPrefab;
 
     private void Start()
@@ -14,6 +16,7 @@ public class SpawnerScript : MonoBehaviour
         go.transform.position = this.transform.position;
     }
 
+    //Spawn object at spawner position every few seconds asigned
     protected virtual IEnumerator SpawnRoutine()
     {
         while (true)

@@ -5,16 +5,10 @@ using UnityEngine.UI;
 
 public class LazerBar : MonoBehaviour
 {
-    public int Status;
-    public int NumberOfStatus;
-    public Image Percentage;
-
-    //public Image[] bars;
-    //public Sprite Fullbar;
-    //public Sprite Emptybar;
-
-    public float TimeRecharge = 0.1f;
-    public float TimeTake = 0.1f;
+    public int status;
+    public int numberOfStatus;
+    public float timeRecharge = 0.1f;
+    public float timeTake = 0.1f;
 
     public float test;
 
@@ -32,18 +26,18 @@ public class LazerBar : MonoBehaviour
     {
         if (pm.weaponParticle.gameObject.activeSelf)
         {
-            Status--;
-            psm.updatePlayer(Status);
-            yield return new WaitForSeconds(TimeTake);
+            status--;
+            psm.updatePlayer(status);
+            yield return new WaitForSeconds(timeTake);
             StartCoroutine(updateLoop());
         }
         else
         {
-            if (Status < NumberOfStatus)
+            if (status < numberOfStatus)
             {
-                Status++;
-                psm.updatePlayer(Status);
-                yield return new WaitForSeconds(TimeRecharge);
+                status++;
+                psm.updatePlayer(status);
+                yield return new WaitForSeconds(timeRecharge);
                 StartCoroutine(updateLoop());
             }
             else
@@ -57,18 +51,18 @@ public class LazerBar : MonoBehaviour
 
     private void Update()
     {
-        if (Status <= 0)
+        if (status <= 0)
         {
             button.isOn = false;
             pm.SetWeapon(false);
         }
 
-        if(Status > NumberOfStatus)
+        if(status > numberOfStatus)
         {
-            Status = NumberOfStatus;
+            status = numberOfStatus;
         }
 
-        test = (float)((decimal)Status /(decimal)NumberOfStatus);
-        Percentage.fillAmount = test;
+        test = (float)((decimal)status /(decimal)numberOfStatus);
+        
     }
 }

@@ -29,6 +29,7 @@ public class DoDamage : MonoBehaviour
         }
     }
 
+    //Handles the damage on the stab
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (active)
