@@ -19,6 +19,7 @@ public class PlayerScript : MonoBehaviour
     public GameObject resetPoint;
     public ScoreAndTimer SAT;
     public int removalOnDeath;
+    public bool isOnIce;
 
     [Header("Wapen")]
     float hz;
@@ -48,7 +49,7 @@ public class PlayerScript : MonoBehaviour
     void Update()
     {
         //Invincible effect
-        if(this.gameObject.layer == 10)
+        if (this.gameObject.layer == 10)
         {
             //Evcery time next action is triggerd
             //Disable or enable sprite on previous state for blinking
@@ -82,7 +83,13 @@ public class PlayerScript : MonoBehaviour
         {
             if (hz > -0.2f && hz < 0.2f)
             {
-                rb.velocity = new Vector2(rb.velocity.x - rb.velocity.x * 0.04f, rb.velocity.y);
+                if (!isOnIce)
+                {
+                    if (jump)
+                    {
+                        rb.velocity = new Vector2(rb.velocity.x - rb.velocity.x * 0.04f, rb.velocity.y);
+                    }
+                }
             }
             else
             {
@@ -119,8 +126,25 @@ public class PlayerScript : MonoBehaviour
         this.gameObject.layer = 0;
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Pill")
+        {
+            collision.gameObject.GetComponent<PillSpawner>().pickedUp = true;
+            SAT.timeRemaining += 5;
+            SAT.score += 5;
+        }
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.CompareTag("Slip"))
+        {
+            isOnIce = true;
+        }
+        else
+        {
+            isOnIce = false;
+        }
         //Enemy collision
         if (collision.gameObject.CompareTag("Enemy"))
         {

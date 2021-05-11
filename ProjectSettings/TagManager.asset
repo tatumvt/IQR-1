@@ -8,6 +8,8 @@ TagManager:
   - Death
   - EastWall
   - WestWall
+  - Slip
+  - Pill
   layers:
   - Default
   - TransparentFX

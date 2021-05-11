@@ -203,6 +203,60 @@ TextureImporter:
   - first:
       213: 5646993195289442764
     second: TileMapDecor_33
+  - first:
+      213: -72985788149320735
+    second: TileMapDecor_33
+  - first:
+      213: 6760580353082725858
+    second: TileMapDecor_34
+  - first:
+      213: -1404813285440897531
+    second: TileMapDecor_35
+  - first:
+      213: 3876970912985620649
+    second: TileMapDecor_36
+  - first:
+      213: -7627695189696859287
+    second: TileMapDecor_37
+  - first:
+      213: -534993158107404665
+    second: TileMapDecor_38
+  - first:
+      213: 6235666322104189741
+    second: TileMapDecor_39
+  - first:
+      213: -4476528390293937765
+    second: TileMapDecor_34
+  - first:
+      213: 3088690333232624751
+    second: TileMapDecor_35
+  - first:
+      213: 8887600323368913996
+    second: TileMapDecor_36
+  - first:
+      213: 8498635406176763064
+    second: TileMapDecor_37
+  - first:
+      213: 6050169063109027325
+    second: TileMapDecor_40
+  - first:
+      213: -6748243058789671833
+    second: TileMapDecor_41
+  - first:
+      213: 2485814895968864517
+    second: TileMapDecor_42
+  - first:
+      213: 5694614496278503272
+    second: TileMapDecor_43
+  - first:
+      213: -2858492640352243317
+    second: TileMapDecor_44
+  - first:
+      213: 3140135637400246572
+    second: TileMapDecor_45
+  - first:
+      213: -7483789728667444428
+    second: TileMapDecor_46
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1009,8 +1063,281 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc9764e54662e5e40800000000000000
-      internalID: 5646993195289442764
+      spriteID: 1e335b7ffc3bcfef0800000000000000
+      internalID: -72985788149320735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91249d852d20e1c0800000000000000
+      internalID: -4476528390293937765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor_35
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6473855e7b3dda20800000000000000
+      internalID: 3088690333232624751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c0d04d769175b70800000000000000
+      internalID: 8887600323368913996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor_37
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc39bccfd731f570800000000000000
+      internalID: 8498635406176763064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor_38
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7866eb5ae825398f0800000000000000
+      internalID: -534993158107404665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2303e26b79898650800000000000000
+      internalID: 6235666322104189741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5ebad25b486f350800000000000000
+      internalID: 6050169063109027325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor_41
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c98d611bc6952a0800000000000000
+      internalID: -6748243058789671833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509499b3a736f7220800000000000000
+      internalID: 2485814895968864517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor_43
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f587786b5570f40800000000000000
+      internalID: 5694614496278503272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b817cbaa6189458d0800000000000000
+      internalID: -2858492640352243317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2959cd99b0049b20800000000000000
+      internalID: 3140135637400246572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b5f0184ec342890800000000000000
+      internalID: -7483789728667444428
       vertices: []
       indices: 
       edges: []

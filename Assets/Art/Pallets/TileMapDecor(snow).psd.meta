@@ -1,0 +1,1342 @@
+fileFormatVersion: 2
+guid: b303ea70206fbc74781cdbe1acefb1e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3784982745347837486
+    second: TileMapDecor(snow)_0
+  - first:
+      213: -4334757141177385717
+    second: TileMapDecor(snow)_1
+  - first:
+      213: -5367213924221479974
+    second: TileMapDecor(snow)_2
+  - first:
+      213: 468399374112072106
+    second: TileMapDecor(snow)_3
+  - first:
+      213: 5197817968533458622
+    second: TileMapDecor(snow)_4
+  - first:
+      213: -1830274939082621469
+    second: TileMapDecor(snow)_5
+  - first:
+      213: 3987108000656032619
+    second: TileMapDecor(snow)_6
+  - first:
+      213: 2545807224446079688
+    second: TileMapDecor(snow)_7
+  - first:
+      213: 4802189810503761708
+    second: TileMapDecor(snow)_8
+  - first:
+      213: 799534656973963453
+    second: TileMapDecor(snow)_9
+  - first:
+      213: 4358383224722087816
+    second: TileMapDecor(snow)_10
+  - first:
+      213: -8504163676243444560
+    second: TileMapDecor(snow)_11
+  - first:
+      213: -6286746687863338480
+    second: TileMapDecor(snow)_12
+  - first:
+      213: 7800620762299736567
+    second: TileMapDecor(snow)_13
+  - first:
+      213: 5292729692987201812
+    second: TileMapDecor(snow)_14
+  - first:
+      213: -5461908793585547722
+    second: TileMapDecor(snow)_15
+  - first:
+      213: 2145163623457446348
+    second: TileMapDecor(snow)_16
+  - first:
+      213: -415516312056106183
+    second: TileMapDecor(snow)_17
+  - first:
+      213: 5878049949893336285
+    second: TileMapDecor(snow)_18
+  - first:
+      213: 2792752783769560978
+    second: TileMapDecor(snow)_19
+  - first:
+      213: -303825093962015838
+    second: TileMapDecor(snow)_20
+  - first:
+      213: 4774678099699894432
+    second: TileMapDecor(snow)_21
+  - first:
+      213: 9122179185066654385
+    second: TileMapDecor(snow)_22
+  - first:
+      213: 8558834219426380991
+    second: TileMapDecor(snow)_23
+  - first:
+      213: 758066651493667805
+    second: TileMapDecor(snow)_24
+  - first:
+      213: 4595185560571975403
+    second: TileMapDecor(snow)_25
+  - first:
+      213: 7015879701523608247
+    second: TileMapDecor(snow)_26
+  - first:
+      213: -3817587722509021821
+    second: TileMapDecor(snow)_27
+  - first:
+      213: 1742922161880332861
+    second: TileMapDecor(snow)_28
+  - first:
+      213: 266678763526167383
+    second: TileMapDecor(snow)_29
+  - first:
+      213: 8499503716705610537
+    second: TileMapDecor(snow)_30
+  - first:
+      213: -2579179424015547291
+    second: TileMapDecor(snow)_31
+  - first:
+      213: 317741739835979612
+    second: TileMapDecor(snow)_32
+  - first:
+      213: -6322013269653774385
+    second: TileMapDecor(snow)_33
+  - first:
+      213: 8434751533064964924
+    second: TileMapDecor(snow)_34
+  - first:
+      213: -6734073491032856931
+    second: TileMapDecor(snow)_35
+  - first:
+      213: -69691847800452731
+    second: TileMapDecor(snow)_36
+  - first:
+      213: 8490593268731057565
+    second: TileMapDecor(snow)_37
+  - first:
+      213: 5288961635081784111
+    second: TileMapDecor(snow)_38
+  - first:
+      213: -2221760090309621591
+    second: TileMapDecor(snow)_39
+  - first:
+      213: -8710308341261846944
+    second: TileMapDecor(snow)_40
+  - first:
+      213: -7030624531314209475
+    second: TileMapDecor(snow)_41
+  - first:
+      213: 6858763789731541532
+    second: TileMapDecor(snow)_42
+  - first:
+      213: 6039003466065705352
+    second: TileMapDecor(snow)_43
+  - first:
+      213: 1962348044788023839
+    second: TileMapDecor(snow)_44
+  - first:
+      213: -2827914464977924456
+    second: TileMapDecor(snow)_45
+  - first:
+      213: -4150773925927748832
+    second: TileMapDecor(snow)_46
+  - first:
+      213: -6655655211608166464
+    second: TileMapDecor(snow)_47
+  - first:
+      213: 5435971070815916000
+    second: TileMapDecor(snow)_0
+  - first:
+      213: -1940409979492364601
+    second: TileMapDecor(snow)_1
+  - first:
+      213: -6289939736036528035
+    second: TileMapDecor(snow)_2
+  - first:
+      213: 6898296240053830260
+    second: TileMapDecor(snow)_3
+  - first:
+      213: 3395722005010858548
+    second: TileMapDecor(snow)_4
+  - first:
+      213: 682254938992879443
+    second: TileMapDecor(snow)_5
+  - first:
+      213: -8565261831059329754
+    second: TileMapDecor(snow)_6
+  - first:
+      213: -7913839880717447260
+    second: TileMapDecor(snow)_7
+  - first:
+      213: 4810299597575350415
+    second: TileMapDecor(snow)_8
+  - first:
+      213: 9028682685116255960
+    second: TileMapDecor(snow)_9
+  - first:
+      213: 6558721837919278217
+    second: TileMapDecor(snow)_10
+  - first:
+      213: -693166781166141078
+    second: TileMapDecor(snow)_11
+  - first:
+      213: 1818206358833769629
+    second: TileMapDecor(snow)_12
+  - first:
+      213: 3953170495866805486
+    second: TileMapDecor(snow)_13
+  - first:
+      213: 2680517291279533535
+    second: TileMapDecor(snow)_14
+  - first:
+      213: 8393416758991152374
+    second: TileMapDecor(snow)_15
+  - first:
+      213: -127800945655242387
+    second: TileMapDecor(snow)_16
+  - first:
+      213: 3901924179644969661
+    second: TileMapDecor(snow)_17
+  - first:
+      213: -2885457628102636099
+    second: TileMapDecor(snow)_18
+  - first:
+      213: 801763374675316774
+    second: TileMapDecor(snow)_19
+  - first:
+      213: 6139031474735018209
+    second: TileMapDecor(snow)_20
+  - first:
+      213: 9098464882188875893
+    second: TileMapDecor(snow)_21
+  - first:
+      213: -8005271717853143913
+    second: TileMapDecor(snow)_22
+  - first:
+      213: -8231045119851496026
+    second: TileMapDecor(snow)_23
+  - first:
+      213: 3881201892440763192
+    second: TileMapDecor(snow)_24
+  - first:
+      213: -4679238340130082298
+    second: TileMapDecor(snow)_25
+  - first:
+      213: -4342012859008599435
+    second: TileMapDecor(snow)_26
+  - first:
+      213: -1446554019804990183
+    second: TileMapDecor(snow)_27
+  - first:
+      213: 984466171819149904
+    second: TileMapDecor(snow)_28
+  - first:
+      213: 8295668084951455202
+    second: TileMapDecor(snow)_29
+  - first:
+      213: -7627488446712996681
+    second: TileMapDecor(snow)_30
+  - first:
+      213: -291245950323394628
+    second: TileMapDecor(snow)_31
+  - first:
+      213: 8761629679678379961
+    second: TileMapDecor(snow)_32
+  - first:
+      213: -8627443302149561781
+    second: TileMapDecor(snow)_33
+  - first:
+      213: 7507422468018516910
+    second: TileMapDecor(snow)_34
+  - first:
+      213: -5494566009488841039
+    second: TileMapDecor(snow)_35
+  - first:
+      213: -4051926751986366812
+    second: TileMapDecor(snow)_36
+  - first:
+      213: 4401980238686139255
+    second: TileMapDecor(snow)_37
+  - first:
+      213: 7257379665417218874
+    second: TileMapDecor(snow)_38
+  - first:
+      213: 4672642435112126377
+    second: TileMapDecor(snow)_39
+  - first:
+      213: -900251884356493897
+    second: TileMapDecor(snow)_40
+  - first:
+      213: -6541797187377905788
+    second: TileMapDecor(snow)_41
+  - first:
+      213: -5214424312943930799
+    second: TileMapDecor(snow)_42
+  - first:
+      213: 6377638340160395856
+    second: TileMapDecor(snow)_43
+  - first:
+      213: 184771084654765189
+    second: TileMapDecor(snow)_44
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef484d43e2707b40800000000000000
+      internalID: 5435971070815916000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce0cb587674215e0800000000000000
+      internalID: -1940409979492364601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50bde6b225a5b8a0800000000000000
+      internalID: -6289939736036528035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47242dfa1ebabbf50800000000000000
+      internalID: 6898296240053830260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43246a81c27002f20800000000000000
+      internalID: 3395722005010858548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3572de4904bd77900800000000000000
+      internalID: 682254938992879443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d2f7fceb3122980800000000000000
+      internalID: -8565261831059329754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af448cce846c2290800000000000000
+      internalID: -7913839880717447260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88eea87ffd91c240800000000000000
+      internalID: 4810299597575350415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de031ce0135c4d70800000000000000
+      internalID: 9028682685116255960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98496c113c2450b50800000000000000
+      internalID: 6558721837919278217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61cd7e2c706166f0800000000000000
+      internalID: -693166781166141078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ca4a2dc019b3910800000000000000
+      internalID: 1818206358833769629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_13
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec12b60f9b7cd630800000000000000
+      internalID: 3953170495866805486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd54201464c133520800000000000000
+      internalID: 2680517291279533535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f46a7372186b7470800000000000000
+      internalID: 8393416758991152374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_16
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61a24097b5f93ef0800000000000000
+      internalID: -127800945655242387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2fe3c3e5b662630800000000000000
+      internalID: 3901924179644969661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_18
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd4086339bc4f7d0800000000000000
+      internalID: -2885457628102636099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_19
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620d0759a8f602b00800000000000000
+      internalID: 801763374675316774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0f58ca998323550800000000000000
+      internalID: 6139031474735018209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578fb38ca9d344e70800000000000000
+      internalID: 9098464882188875893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79cd1ee49cf87e090800000000000000
+      internalID: -8005271717853143913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_23
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adf90dc21475cd80800000000000000
+      internalID: -8231045119851496026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_24
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b6184ce8cccd530800000000000000
+      internalID: 3881201892440763192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_25
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60278257581001fb0800000000000000
+      internalID: -4679238340130082298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_26
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a3d984f421eb3c0800000000000000
+      internalID: -4342012859008599435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_27
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9153c1d78ceccebe0800000000000000
+      internalID: -1446554019804990183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a4ba074c689ad00800000000000000
+      internalID: 984466171819149904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e59312cb22202370800000000000000
+      internalID: 8295668084951455202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc964d7ba7b52690800000000000000
+      internalID: -7627488446712996681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_31
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7f3bce95945fbf0800000000000000
+      internalID: -291245950323394628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7dfb6c5cf879970800000000000000
+      internalID: 8761629679678379961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_33
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b426d8fd60a254880800000000000000
+      internalID: -8627443302149561781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3b70965f8bf2860800000000000000
+      internalID: 7507422468018516910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_35
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b66b7963516fb3b0800000000000000
+      internalID: -5494566009488841039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a643fb461aa4c7c0800000000000000
+      internalID: -4051926751986366812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7733d2354b9f61d30800000000000000
+      internalID: 4401980238686139255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b265dba5467b460800000000000000
+      internalID: 7257379665417218874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_39
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7464bb98f88d040800000000000000
+      internalID: 4672642435112126377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_40
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd1e805ea9a183f0800000000000000
+      internalID: -900251884356493897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_41
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48fb0b53e1ed635a0800000000000000
+      internalID: -6541797187377905788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15211dee6b4a2a7b0800000000000000
+      internalID: -5214424312943930799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a1c2bb74ce18850800000000000000
+      internalID: 6377638340160395856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapDecor(snow)_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5846c919250709200800000000000000
+      internalID: 184771084654765189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
