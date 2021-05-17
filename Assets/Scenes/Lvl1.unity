@@ -1687,7 +1687,7 @@ GameObject:
   m_Component:
   - component: {fileID: 262752822}
   m_Layer: 0
-  m_Name: GroundChecl (1)
+  m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1701,7 +1701,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 262752821}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0746, y: -0.1607, z: 0}
+  m_LocalPosition: {x: -0.1263, y: -0.1607, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2110240447}
@@ -4678,7 +4678,7 @@ GameObject:
   m_Component:
   - component: {fileID: 495526324}
   m_Layer: 0
-  m_Name: GroundChecl
+  m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4692,7 +4692,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 495526323}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0749, y: -0.2016, z: 0}
+  m_LocalPosition: {x: 0.1352, y: -0.2016, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2110240447}
@@ -5881,7 +5881,8 @@ MonoBehaviour:
   numberOfStatus: 16
   timeRecharge: 0.1
   timeTake: 0.1
-  test: 0
+  visualValue: 0
+  value: {fileID: 518793654}
   psm: {fileID: 1825646825}
   button: {fileID: 260621552}
   pm: {fileID: 1825646821}
@@ -81879,11 +81880,10 @@ MonoBehaviour:
   speed: 440
   maxSpeed: 6
   jumpHight: 450
-  jump: 0
   resetPoint: {fileID: 1916671172}
   SAT: {fileID: 158663467}
   removalOnDeath: 10
-  isOnIce: 0
+  enemyTimeDamage: 5
   weapon: {fileID: 210472975}
   weaponParticle: {fileID: 856015732}
   stab: {fileID: 352276161}
@@ -81895,7 +81895,6 @@ MonoBehaviour:
   timerObj: {fileID: 158663465}
   lazerManager: {fileID: 791368603}
   period: 0.1
-  enemyTimeDamage: 5
 --- !u!70 &1825646822
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

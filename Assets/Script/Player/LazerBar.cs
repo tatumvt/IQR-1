@@ -10,7 +10,8 @@ public class LazerBar : MonoBehaviour
     public float timeRecharge = 0.1f;
     public float timeTake = 0.1f;
 
-    public float test;
+    public float visualValue;
+    public Image value;
 
     public PayerSpriteManager psm;
 
@@ -62,7 +63,7 @@ public class LazerBar : MonoBehaviour
             status = numberOfStatus;
         }
 
-        test = (float)((decimal)status /(decimal)numberOfStatus);
-        
+        visualValue = (float)((decimal)status /(decimal)numberOfStatus);
+        value.fillAmount = visualValue;
     }
 }

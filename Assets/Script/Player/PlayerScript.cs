@@ -11,19 +11,22 @@ using UnityStandardAssets.CrossPlatformInput;
 public class PlayerScript : MonoBehaviour
 {
     [Header("Speler")]
-    Rigidbody2D rb;
     public float speed;
     public float maxSpeed;
     public float jumpHight;
-    public bool jump;
+    Rigidbody2D rb;
+    bool jump;
+    bool isOnIce;
     public GameObject resetPoint;
     public ScoreAndTimer SAT;
+    
+    [Header("Damage")]
     public int removalOnDeath;
-    public bool isOnIce;
+    public float enemyTimeDamage;
 
-    [Header("Wapen")]
-    float hz;
+    [Header("Wapen(Spuit)")]
     public GameObject weapon;
+    float hz;
     public ParticleSystem weaponParticle;
     public Animator stab;
 
@@ -38,7 +41,7 @@ public class PlayerScript : MonoBehaviour
 
     private float nextActionTime = 0.0f;
     public float period = 0.1f;
-    public float enemyTimeDamage;
+    
     void Start()
     {
         weaponParticle.gameObject.SetActive(false); 
@@ -174,11 +177,11 @@ public class PlayerScript : MonoBehaviour
         else if (hz > 0)
         {
             this.GetComponent<SpriteRenderer>().flipX = false;
-
             weapon.transform.eulerAngles = new Vector3(0, 0, 0);
             weapon.transform.localPosition = new Vector2(0.05f, weapon.transform.localPosition.y);
         }
     }
+
     public void Jump()
     {
         if (jump)
