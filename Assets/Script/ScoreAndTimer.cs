@@ -7,7 +7,7 @@ using TMPro;
 public class ScoreAndTimer : MonoBehaviour
 {
     public float timeRemaining = 10;
-    public bool timerIsRunning = false;
+    public bool timerIsRunning = false, timescale = false;
     public TextMeshProUGUI timeText;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI scoreTextPOP;
@@ -61,11 +61,20 @@ public class ScoreAndTimer : MonoBehaviour
                 }
                 scoreTextPOP.text = score.ToString();
 
-                Time.timeScale = 0;
+                
                 timerIsRunning = false;
                 DisplayTime(-1);
             }
         }
+        else
+        {
+            if (!timescale)
+            {
+                timescale = true;
+                Time.timeScale = 0;
+            }
+        }
+        
     }
 
     void DisplayTime(float timeToDisplay)

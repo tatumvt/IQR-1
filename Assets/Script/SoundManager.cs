@@ -8,7 +8,25 @@ public class SoundManager : MonoBehaviour
     public AudioMixer mixer;
 
     private void Start()
-    {   
+    {
+        if (!PlayerPrefs.HasKey("Master"))
+        {
+            PlayerPrefs.SetFloat("Master", 1);
+            mixer.SetFloat("Master", Mathf.Log10(1) * 20);
+        }
+
+        if (!PlayerPrefs.HasKey("SFX"))
+        {
+            PlayerPrefs.SetFloat("SFX", 1);
+            mixer.SetFloat("SFX", Mathf.Log10(1) * 20);
+        }
+
+        if (!PlayerPrefs.HasKey("Music"))
+        {
+            PlayerPrefs.SetFloat("Music", 1);
+            mixer.SetFloat("Music", Mathf.Log10(1) * 20);
+        }
+
         //Set mixers floats to last saved players prefs on start of the game
         mixer.SetFloat("Master", Mathf.Log10(PlayerPrefs.GetFloat("Master")) * 20);
         mixer.SetFloat("SFX", Mathf.Log10(PlayerPrefs.GetFloat("SFX")) * 20);

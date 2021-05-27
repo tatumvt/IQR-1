@@ -10,6 +10,7 @@ using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerScript : MonoBehaviour
 {
+    public Spawner spawner;
     [Header("Speler")]
     public float speed;
     public float maxSpeed;
@@ -19,12 +20,18 @@ public class PlayerScript : MonoBehaviour
     bool isOnIce;
     public GameObject resetPoint;
     public ScoreAndTimer SAT;
+    public AudioSource jumpManger;
+    public AudioClip[] jumpVariants;
     
     [Header("Damage")]
     public int removalOnDeath;
     public float enemyTimeDamage;
+    public AudioSource sourceFall;
+    public AudioClip[] fall;
 
     [Header("Wapen(Spuit)")]
+    public AudioSource source;
+    public AudioClip[] clips;
     public GameObject weapon;
     float hz;
     public ParticleSystem weaponParticle;
@@ -96,7 +103,23 @@ public class PlayerScript : MonoBehaviour
             }
             else
             {
+                if(hz <= -0.01f)
+                {
+                    if(rb.velocity.x >= 0.01f)
+                    {
+                        rb.velocity = new Vector2(0, rb.velocity.y);
+                    }
+                }
+
+                if (hz >= 0.01f)
+                {
+                    if (rb.velocity.x <= -0.01f)
+                    {
+                        rb.velocity = new Vector2(0, rb.velocity.y);
+                    }
+                }
                 Vector2 movement = new Vector2(hz, 0);
+                
                 rb.AddForce(speed * movement * Time.deltaTime);
             }
         }
@@ -104,7 +127,14 @@ public class PlayerScript : MonoBehaviour
 
     public void SetWeapon(bool state)
     {
-        weaponParticle.gameObject.SetActive(state);
+        if (!lazerManager.overUse)
+        {
+            weaponParticle.gameObject.SetActive(state);
+        }
+        else
+        {
+            weaponParticle.gameObject.SetActive(false);
+        }
     }
 
     //turns on invisible tag and off after 5 seconds
@@ -136,6 +166,7 @@ public class PlayerScript : MonoBehaviour
             collision.gameObject.GetComponent<PillSpawner>().pickedUp = true;
             SAT.timeRemaining += 5;
             SAT.score += 5;
+            spawner.Spawn(this.gameObject.transform.position, "+"+5);
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -154,13 +185,17 @@ public class PlayerScript : MonoBehaviour
             ScoreAndTimer t = timerObj.gameObject.GetComponent<ScoreAndTimer>();
             t.RemoveTime(enemyTimeDamage);
             StartCoroutine(Invin());
+            spawner.Spawn(this.gameObject.transform.position, "-" + enemyTimeDamage);
         }
 
         //Void collision, reset back to spawn point
         if (collision.gameObject.CompareTag("Death"))
         {
+            sourceFall.clip = fall[UnityEngine.Random.Range(0, fall.Length)];
+            sourceFall.Play();
             SAT.RemoveTime(removalOnDeath);
             this.gameObject.transform.position = resetPoint.transform.position;
+            spawner.Spawn(this.gameObject.transform.position, "-" + removalOnDeath);
         }
     }
     private void Flip()
@@ -186,6 +221,9 @@ public class PlayerScript : MonoBehaviour
     {
         if (jump)
         {
+            
+            jumpManger.clip = jumpVariants[UnityEngine.Random.Range(0, jumpVariants.Length)];
+            jumpManger.Play();
             Vector2 jump_force = new Vector2(0, jumpHight);
             rb.AddForce(jump_force);
         }
@@ -198,6 +236,8 @@ public class PlayerScript : MonoBehaviour
             //Check if stab is already playing
             if (!this.stab.GetCurrentAnimatorStateInfo(0).IsName("StabStab"))
             {
+                source.clip = clips[UnityEngine.Random.Range(0, clips.Length)];
+                source.Play();
                 stab.Play("StabStab");
             }
         }

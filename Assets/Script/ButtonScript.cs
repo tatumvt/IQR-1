@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ButtonScript : MonoBehaviour
 {
+    public ButtonClick bc;
     //Level canvas
     public GameObject levelsPanel;
 
@@ -17,18 +18,30 @@ public class ButtonScript : MonoBehaviour
     //Actual load on play button
     public void LoadSceneScript(string name)
     {
+        Time.timeScale = 1;
+        bc.buttonClick();
+        StartCoroutine(LoadSceneScriptIE(name));
+    }
+    private IEnumerator LoadSceneScriptIE(string name)
+    {
+        Time.timeScale = 1;
+        yield return new WaitForSeconds(0.3f);
         SceneManager.LoadScene(name);
     }
 
     //Opens levels
     public void OpenLevelCanvas(GameObject canvas)
     {
+        Time.timeScale = 1;
+        bc.buttonClick();
         canvas.SetActive(true);
     }
 
     //Level Preview to open
     public void SelectLevel(GameObject level)
     {
+        Time.timeScale = 1;
+        bc.buttonClick();
         level.SetActive(true);
         levelsPanel.SetActive(false);
     }
@@ -36,6 +49,8 @@ public class ButtonScript : MonoBehaviour
     //Back To main level
     public void BackTomain(GameObject level)
     {
+        Time.timeScale = 1;
+        bc.buttonClick();
         level.SetActive(false);
         levelsPanel.SetActive(true);
     }
@@ -43,6 +58,8 @@ public class ButtonScript : MonoBehaviour
     //Toggles Settings menu
     public void SettingsToggle(GameObject settingView)
     {
+        Time.timeScale = 1;
+        bc.buttonClick();
         settingView.SetActive(!settingView.activeSelf);
     }
 }

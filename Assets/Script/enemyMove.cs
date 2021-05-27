@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using System.Collections;
+using TMPro;
 using UnityEngine;
 
 public class enemyMove : MonoBehaviour
@@ -9,12 +10,16 @@ public class enemyMove : MonoBehaviour
     public float health;
     public ScoreAndTimer SAT;
     public GameObject player;
+    public AudioSource source;
+    public AudioClip[] clips;
 
     void Start()
     {
         player = FindObjectOfType<PlayerScript>().gameObject;
         SAT = FindObjectOfType<ScoreAndTimer>();
         flip = (Random.value > 0.5f);
+        int timer = Random.Range(2, 5);
+        StartCoroutine(sound(timer));
     }
 
     private void OnParticleCollision(GameObject collision)
@@ -22,6 +27,21 @@ public class enemyMove : MonoBehaviour
         health = health - 5;
     }
 
+    public IEnumerator sound(int timer)
+    {
+        if (SAT.timeRemaining == 0)
+        {
+
+        }
+        else
+        {
+            yield return new WaitForSeconds(timer);
+            source.clip = (clips[Random.Range(0, clips.Length)]);
+            source.Play();
+            int timer2 = Random.Range(2, 5);
+            StartCoroutine(sound(timer2));
+        }
+    }
     void Update()
     {
 

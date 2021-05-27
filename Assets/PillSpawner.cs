@@ -11,6 +11,7 @@ public class PillSpawner : MonoBehaviour
     public int minWait;
     public int maxWait;
     public int random;
+    public AudioSource source;
 
     void Start()
     {
@@ -26,6 +27,7 @@ public class PillSpawner : MonoBehaviour
     {
         if (pickedUp)
         {
+            source.Play();
             pickedUp = false;
             bc.enabled = false;
             render.enabled = false;

@@ -7,8 +7,10 @@ public class LazerBar : MonoBehaviour
 {
     public int status;
     public int numberOfStatus;
-    public float timeRecharge = 0.1f;
-    public float timeTake = 0.1f;
+    private float timeRecharge = 0.16f;
+    private float timeTake = 0.3f;
+
+    public bool overUse;
 
     public float visualValue;
     public Image value;
@@ -18,6 +20,10 @@ public class LazerBar : MonoBehaviour
     public Toggle button;
     public PlayerScript pm;
 
+    public AudioSource source;
+    public AudioClip on;
+    public AudioClip off;
+
     private void Start()
     {
         StartCoroutine(updateLoop());
@@ -25,8 +31,13 @@ public class LazerBar : MonoBehaviour
 
     public IEnumerator updateLoop()
     {
-        if (pm.weaponParticle.gameObject.activeSelf)
+        if (pm.weaponParticle.gameObject.activeSelf && !overUse)
         {
+            if (source.clip != on)
+            {
+                source.clip = on;
+                source.Play();
+            }
             status--;
             psm.updatePlayer(status);
             yield return new WaitForSeconds(timeTake);
@@ -36,6 +47,11 @@ public class LazerBar : MonoBehaviour
         {
             if (status < numberOfStatus)
             {
+                if (source.clip != off)
+                {
+                    source.clip = off;
+                    source.Play();
+                }
                 status++;
                 psm.updatePlayer(status);
                 yield return new WaitForSeconds(timeRecharge);
@@ -52,10 +68,19 @@ public class LazerBar : MonoBehaviour
 
     private void Update()
     {
-        if (status <= 0)
+        if(overUse == true)
         {
             button.isOn = false;
+        }
+        if (status <= 0)
+        {
+            overUse = true;
+            button.isOn = false;
             pm.SetWeapon(false);
+        }
+        if(status == numberOfStatus)
+        {
+            overUse = false;
         }
 
         if(status > numberOfStatus)
